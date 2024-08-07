@@ -11,7 +11,7 @@ A simple bash script to fix Discord wanting to update to a version that isn't in
 ```sh
 paru -S discord-update-skip-git
 ```
-### If you're not on Arch,
+### On any Other Distro than Arch,
 ```sh
 bash <(curl -sSL https://raw.githubusercontent.com/lwertzui/discord-update-skip/stable/set-config.sh)
 ```
