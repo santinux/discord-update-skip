@@ -13,7 +13,7 @@ paru -S discord-update-skip-git
 ```
 ### On any Other Distro than Arch,
 ```sh
-bash <(curl -sSL https://raw.githubusercontent.com/lwertzui/discord-update-skip/stable/set-config.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/n3oney/discord-update-skip/stable/set-config.sh)
 ```
 
 ## Usage
