@@ -1,4 +1,19 @@
 #!/usr/bin/env bash
+echo "checking Dependencies"
+check_dependency() {
+    if command -v $1 >/dev/null 2>&1; then
+        echo "$1 is installed."
+    else
+        echo "$1 is not installed."
+        exit 1
+    fi
+}
+
+check_dependency bash
+
+check_dependency jq
+
+echo "All dependencies are installed."
 
 CONFIG_DIR=~/.config/discord
 CONFIG_FILE="$CONFIG_DIR"/settings.json
