@@ -17,7 +17,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/lwertzui/discord-update-skip/
 ```
 
 ## Usage
-To patch your Discord configuration on Arch, you can simply run the script.
+To patch your Discord configuration, you can simply run the script.
 
 ```sh
 discord-update-skip
