@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-echo "checking Dependencies"
+#!/usr/bin/bash
+echo "Checking dependencies..."
 check_dependency() {
     if command -v $1 >/dev/null 2>&1; then
         echo "$1 is installed."
