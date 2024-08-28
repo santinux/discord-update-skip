@@ -1,9 +1,15 @@
 # discord-update-skip
-A simple bash script to fix Discord wanting to update to a version that isn't in the repos.
+A simple bash script to prevent Discord wanting to update to a version that isn't in the repos.
 
+Language: english
+
+Also available in:
+![spanish](LEEME.md)
+
+-------------------------------------------------------------------------------
 
 ## Dependencies
- * bash
+ * Bash
  * [jq](https://github.com/stedolan/jq)
 
 ## Installation
@@ -11,18 +17,19 @@ A simple bash script to fix Discord wanting to update to a version that isn't in
 ```sh
 paru -S discord-update-skip-git
 ```
-### On any Other Distro than Arch,
+
+### On any other Linux based distro:
 ```
 curl -sSL https://raw.githubusercontent.com/n3oney/discord-update-skip/stable/set-config.sh | bash
 ```
 
 ## Usage
 To patch your Discord configuration, you can simply run the script.
-
 ```sh
 discord-update-skip
 ```
-If you are on any other Distro, it is automatically run by using the install script.
+
+If you are on any other distro, it is automatically run by using the install script.
 
 The script should work even if your Discord configuration hasn't yet been initialized. It should inform you about it if that's the case.
 
