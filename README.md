@@ -4,7 +4,7 @@ A simple bash script to prevent Discord wanting to update to a version that isn'
 Language: english
 
 Also available in:
-![spanish](ut/LEEME.md)
+![spanish](LEEME.md)
 
 -------------------------------------------------------------------------------
 
