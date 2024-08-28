@@ -5,6 +5,7 @@ check_dependency() {
         echo "$1 is installed."
     else
         echo "$1 is not installed."
+        echo "Please, make sure to install it and re-run this script."
         exit 1
     fi
 }
@@ -14,6 +15,7 @@ check_dependency bash
 check_dependency jq
 
 echo "All dependencies are installed."
+echo "Work in progress..."
 
 CONFIG_DIR=~/.config/discord
 CONFIG_FILE="$CONFIG_DIR"/settings.json
