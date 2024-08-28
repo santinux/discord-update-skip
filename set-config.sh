@@ -10,8 +10,6 @@ check_dependency() {
     fi
 }
 
-check_dependency bash
-
 check_dependency jq
 
 echo "All dependencies are installed."
